@@ -1,0 +1,45 @@
+/*Buscador*/
+.buscar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background:  white;
+  padding: 15px;
+  border-color: grey;
+  border: 5px solid #0098B1 ;
+  height: 10px;
+  border-radius: 50px;
+  margin-left: 330px;
+}
+
+.buscar_texto{
+  border: none;
+  background: none;
+  outline: none;
+  color: grey;
+}
+
+.boton{
+  width: auto;
+  height:20px;
+
+}
+
+
+/*navbar*/
+container-fluid{
+  margin-right: 100px;
+}
+
+.logo{
+  margin-left: 50px;
+}
+
+/*redes sociales para footer*/
+.iconos {
+  width: 30px;
+  }

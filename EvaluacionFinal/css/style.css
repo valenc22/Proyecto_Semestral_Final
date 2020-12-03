@@ -1,3 +1,8 @@
+/*fuente familia*/
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
 /*Buscador*/
 .buscar{
   display: flex;
@@ -29,7 +34,6 @@
 
 }
 
-
 /*navbar*/
 container-fluid{
   margin-right: 100px;
@@ -39,7 +43,59 @@ container-fluid{
   margin-left: 50px;
 }
 
+/*portada y titulo*/
+.portada{
+  background-color: #0098B1;
+}
+
+.mundo{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  flex: auto;
+}
+
+.mudarse{
+  margin: 45px;
+  width: 500px;
+  border-radius: 20px 20px 20px 20px;
+}
+
 /*redes sociales para footer*/
 .iconos {
   width: 30px;
   }
+
+/*informacion de contacto + redes sociales*/
+.imagenes{
+  margin-left: 30px;
+}
+
+.imagen{
+  width: 90px;
+}
+
+.redes{
+  text-align: center;
+  padding-top: 40px;
+  padding-top: 40px;
+}
+
+.redes li{
+  display: inline-block;
+}
+
+.redes a{
+  padding: 15px;
+}
+/*contacto*/
+article,container-fluid{
+margin-left:650px;
+text-align:center;
+margin-top:-300px;
+}
+
+.titulocontacto{
+  font-weight: bold;
+}

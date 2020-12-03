@@ -83,6 +83,94 @@
       </a>
   </div>
 
+  <section>
+      <div class="row g-0">
+         <div class="col-lg-6 d-flex flex-column align-items-end min-vh-100">
+        <div class="px-lg-5 py-lg-4 p-4 w-100 align-self-center">
+          <br><br><br>
+          <h3 class="text-center" style="font-size: 30px;">Información de Contacto</h3>
+        <hr style="align-items:center; width: 400px; margin-left:100px;">
+           <br>
+        <div class="imagenes">
+          <div class="">
+            <img src="img/iconos/pngtree-calling-telephone-glyph-icon-vector-png-image_1885956.jpg" alt="" class="imagen">
+            <span>+569 84120574</span>
+          </div>
+          <br>
+          <div class="">
+            <img src="img/iconos/pngtree-vector-location-icon-png-image_1024680.jpg" alt="" class="imagen">
+            <span>San José obrero 200, Peñablanca Villa Alemana</span>
+          </div>
+          <br>
+          <div class="">
+            <img src="img/iconos/56615905-correo-electrónico-icono-de-símbolo-de-la-carta-vector-diseño-plana-.jpg" alt="" class="imagen">
+            <span>Info@corredoraareapropiedades.cl</span>
+          </div>
+          <br>
+        </div>
+        <h3 class="text-center" style="font-size: 30px;">Redes Sociales</h3>
+      <hr style="align-items:center; width: 400px; margin-left:100px;">
+         <br>
+      <div class="redes">
+        <ul>
+          <li><a href=https://pt-br.facebook.com/corredoraareapropiedades/>
+            <img src="img/iconos/90dd9f12fdd1eefb8c8976903944c026-icono-de-facebook-logo-by-vexels.png" height="60" width="60"></a></li>
+
+          <li><a href=https://api.whatsapp.com/send?phone=56984120574&text=Hola,%20estoy%20en%20la%20web%20de%20%C3%81rea%20propiedades/>
+            <img src="img/iconos/whatsapp-icone-2.png" height="60" width="60"></a>
+            </li>
+          <li><a href=https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1#>
+            <img src="img/iconos/gmail.png" height="60" width="100"></a>
+          </li>
+        </ul>
+      </div>
+           </div>
+         </div>
+
+
+         <div class="col-lg-6 d-flex flex-column align-items-end min-vh-100">
+            <div class="px-lg-5 py-lg-4 p-4 w-100 align-self-center">
+              <h1 class="font-weight-bold mb-4 text-dark text-center">Contáctenos</h1>
+
+              <hr style=" align-items: center; width: 350px; margin-left:100px;">
+               <br><br>
+              <form class="mb-4" style="border: 2px solid grey; padding: 30px; padding-left: -9px; border-radius: 20px 20px 20px 20px; background-color:#CCCCCC;">
+                 <div id="errores">
+
+                 </div>
+
+                 <div class="mb-2 form-group">
+                    <label for="nombre-txt" class="form-label font-weight-bold">Nombre</label>
+                     <input type="text" id="nombre-txt" placeholder="Escribe su Nombre" class="form-control bg-dark-x border-0" style="border-radius: 15px 15px 15px 15px;">
+                </div>
+               <div class="mb-2 form-group">
+                  <label for="apellido-txt" class="form-label font-weight-bold">Apellido</label>
+                   <input type="text" id="apellido-txt" placeholder="Escribe su Apellido" class="form-control bg-dark-x border-0" style="border-radius: 15px 15px 15px 15px;">
+              </div>
+              <div class="mb-2 form-group">
+                 <label for="correo-txt" class="form-label font-weight-bold">Correo Electrónico</label>
+                  <input type="text" id="correo-txt" placeholder="Escribe su Correo Electrónico" class="form-control bg-dark-x border-0" style="border-radius: 15px 15px 15px 15px;">
+             </div>
+             <div class="mb-2 form-group">
+                <label for="numero-txt" class="form-label font-weight-bold">Número de Teléfono</label>
+                 <input type="number" id="numero-txt" placeholder="Escribe su Número de Celular o Teléfono Fijo" class="form-control bg-dark-x border-0" style="border-radius: 15px 15px 15px 15px;">
+            </div>
+            <div class="mb-2 form-group">
+               <label for="mensaje-txt" class="form-label font-weight-bold">Mensaje</label>
+               <textarea type="text" class="form-control bg-dark-x border-0" id="mensaje-txt" placeholder="Escribe el Mensaje" rows="8" cols="80" style="border-radius: 15px 15px 15px 15px;"></textarea>
+           </div>
+           <br>
+           <button type="button" class="btn btn-success float-left" size:"large" style="background-color:#0098B1; border-radius:20px 20px 20px 20px;" id="enviar-btn" >Enviar</button>
+           <br>
+           </div>
+
+</form>
+</section>
+
+
+
+<br>
+
     <footer>
       <div class="row p-4 text-white" style="background-color: #45237A;">
 
@@ -131,6 +219,14 @@
     </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
+    <script src="vendor/tinymce/tinymce.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" ></script>
+    <script src="vendor/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <script src="js/contacto.js"></script>
+    <script src="js/init.js"></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper.js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-popRpmFF9JQgExhfw5tZT4I9/CI5e2QcuUZPOVXb1m7qUmeR2b50u+YFEYe1wgzy" crossorigin="anonymous"></script>

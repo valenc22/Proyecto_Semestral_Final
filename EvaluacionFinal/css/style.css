@@ -44,7 +44,7 @@
   border: 5px solid #0098B1 ;
   height: 10px;
   border-radius: 50px;
-  margin-left: 600px;
+  margin-left: 515px;
 }
 
 .buscar_texto{
@@ -119,6 +119,7 @@
 .item{
   background-color: #fff;
   position: relative;
+  margin: 10px;
 }
 
 
@@ -162,13 +163,13 @@ margin-top:-300px;
   font-weight: bold;
 }
 
-@media screen and (min-width:590px){
+@media screen and (min-width:500px){
   .container{
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (min-width:960px){
+@media screen and (min-width:500px){
   .container{
     grid-template-columns: repeat(2, 1fr);
   }

@@ -122,8 +122,21 @@
   margin: 10px;
 }
 
+.images{
+  border-radius: 30px 30px 30px 30px;
+}
 
-
+/*agentes*/
+.img-4{
+  border-radius: 300px 300px 300px 300px;
+  box-shadow: 5px 5px 20px #000;
+  border: 2px #000;
+  height: 300px;
+  width: 300px;
+  margin: 100px 215px;
+  margin-top: 20px;
+  display: inline;
+}
 
 /*redes sociales para footer*/
 .iconos{

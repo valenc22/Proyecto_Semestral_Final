@@ -5,6 +5,8 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 /*logo*/
@@ -137,6 +139,36 @@
   margin-top: 20px;
   display: inline;
 }
+
+/*galeria*/
+
+.gallery-container{
+  box-sizing: border-box;
+  width: 80%;
+  margin: 100px auto;
+  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2,300px);
+}
+
+.gallery-container .gallery-card{
+  overflow:hidden;
+}
+
+.gallery-container .gallery-card a{
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+}
+
+.gallery-container .gallery-card a > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
 
 /*redes sociales para footer*/
 .iconos{
